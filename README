@@ -1,3 +1,9 @@
 Writing an OS in Rust Philipp Oppermann's blog
 
 os.phil-opp.com
+
+
+`cargo rustc -- -C link-args="-e __start -static -nostartfiles"`
+
+
+`cargo build --target thumbv7em-none-eabihf`
